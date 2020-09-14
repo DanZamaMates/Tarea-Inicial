@@ -6,10 +6,12 @@
 
 
 #funcion2  calcular perímetro del rectángulo
-
+def calcularPerimetro(a,b):
+    return print(str(2*a + 2*b))
 
 #instrucciones de accion
 #pedir datos
+
 print("medida de un lado del rectángulo")
 l1 = float(input())
 
@@ -19,4 +21,5 @@ l2 = float(input())
 #desplegar calculo funcion1
 
 #desplegar calculo funcion 2
+calcularPerimetro(l1,l2)
 
